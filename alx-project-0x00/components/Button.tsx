@@ -34,8 +34,9 @@ const Button: React.FC<ButtonProps> = ({
     "rounded-sm": "rounded-sm",
     "rounded-md": "rounded-md", 
     "rounded-full": "rounded-full",
+     "rounded-lg": "rounded-lg", // ✅ Added
   };
-  // Ensure 'styles' prop is handled as a string for custom Tailwind classes
+
   // Base Tailwind CSS classes
   const baseClasses = `
     inline-flex items-center justify-center
