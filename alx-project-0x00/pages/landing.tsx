@@ -12,7 +12,7 @@ const Landing: React.FC =  () => {
 
       {/* ✅ Add Button */}
       <div className="mt-6">
-        <Button title="Click Me" />
+        <Button title="Click Me" styles="rounded-sm rounded-lg rounded-full" />
       </div>
     </div>
   )
